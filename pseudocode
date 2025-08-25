@@ -1,0 +1,7 @@
+FUNCTION classify_loan(Age, Income, Credit_Score):
+    IF Credit_Score >= 70:
+        RETURN "Yes"
+    ELSE IF Income >= 50 AND Age >= 30:
+        RETURN "Yes"
+    ELSE:
+        RETURN "No"
